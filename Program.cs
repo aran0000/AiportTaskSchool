@@ -90,13 +90,13 @@ namespace AirportTask
     class Program
     {
 
-        public static void Error(string err)
+        static void Error(string err)
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(err);
             Console.ForegroundColor = ConsoleColor.White;
         }
-        public static void Success(string msg)
+        static void Success(string msg)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(msg);
